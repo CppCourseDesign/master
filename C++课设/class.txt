@@ -1,0 +1,10 @@
+01.Person人物基类
+	1）player玩家类
+	2）monster怪物类
+02.Ability技能类
+03.Map地图类
+04.Shop商店类
+05.Goods物品基类
+	1）equipment装备类
+	2）things消耗品类
+
