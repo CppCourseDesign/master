@@ -22,7 +22,7 @@ private:
     int crit;            //暴击率
     int hit;             //命中率
     float mark;          //当前位置
-    string[] skill;      //技能
+    Skill[] skill;       //技能
 };
 
 
@@ -32,5 +32,14 @@ public:
 private:
     int experience;
     int lucky;
-    Equipment
+    Equipment equipment;
 };
+
+class Monster:public Person{ //怪物
+public:
+
+private:
+    int lucky;
+    Equipment[] fall;        //掉落
+};
+
