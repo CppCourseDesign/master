@@ -3,24 +3,7 @@ using namespace std;
 
 class Equipment{
 public:
-    void setArmor(Single& armor){
-        this.armor = armor;
-    }
-    Single getArmor() {
-        return armor;
-    }
-    void setAccessories(Single& accessories){
-        this.accessories = accessories;
-    }
-    Single getAccessories() {
-        return accessories;
-    }
-    void setArms(Single& arms){
-        this.arms= arms;
-    }
-    Single getArms() {
-        return arms;
-    }
+    Equipment(string name)
 
 private:
     Single armor;        //Õ½¼×

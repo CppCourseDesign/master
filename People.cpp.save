@@ -104,7 +104,7 @@ public:
         this.equipment = equipment;
     }
     Equipment getEquipment() {
-        return equipment;
+        return equipment
     }
 private:
     int experience;
